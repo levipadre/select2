@@ -1658,11 +1658,11 @@ S2.define('select2/selection/single',[
       // User exits the container
     });
 
-    container.on('focus', function (evt) {
-      if (!container.isOpen()) {
-        self.$selection.trigger('focus');
-      }
-    });
+//     container.on('focus', function (evt) {
+//       if (!container.isOpen()) {
+//         self.$selection.trigger('focus');
+//       }
+//     });
   };
 
   SingleSelection.prototype.clear = function () {
